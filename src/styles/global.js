@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+//Todos estilos globais vem aqui
 export default createGlobalStyle`
 
 *{
@@ -22,6 +22,8 @@ html, body, #root{
     height:100%;
     width:100%;
 }
+
+//todas as cores usadas no projecto
 
 #root{
     --primary:#E63946; //red
