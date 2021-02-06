@@ -1,22 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { BurguerMenu, Container } from './HomeElements';
 import abstract1 from '../../Assets/Abstract1.png'
 import abstract2 from '../../Assets/Abstract2.png'
 import character from '../../Assets/character1.png'
 import Menu from '../Menu';
 
-function Home() {
+
+function Home({open,setOpen}) {
+   
+        
     return (
         <>
-        <Menu/>
+       
         <Container>
-            {/* <img src={abstract1} alt="abstract" className="abstract1"/> */}
+           
             <img src={abstract2} alt="abstract" className="abstract2"/>
-            {/* <img src={character} alt="person" className="person"/>  */}
+           
         <nav>
             <h2>MasterChef</h2>
-            <button>
-                <BurguerMenu/>
+            <button onClick={()=>setOpen(!open)}  >
+                <BurguerMenu />
             </button>
         </nav>
 
