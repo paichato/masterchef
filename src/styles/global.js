@@ -16,21 +16,32 @@ body, input, button{
     background:none;
 }
 
+
 html, body, #root{
-    max-width:100vw;
-    max-height:100vh;
-    height:100%;
-    width:100%;
+    /* max-width:100vw; */
+    max-height:100vh; 
+     height:100%;
+    
+    
+   /* margin-left:30%; */
+   /* margin-right:30%; */
 }
 
 //todas as cores usadas no projecto
 
 #root{
+
+    max-width:614px;
+    margin:0 auto;
+    
+    
+    
     --primary:#E63946; //red
     --secondary:#F1FAEE; //white
     --white:#fff;
     --blue-menu:#457B9D;
     --soft-blue:#A8DADC;
+    --dark-blue:#355F79;
 
 
 }

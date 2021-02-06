@@ -3,10 +3,12 @@ import { BurguerMenu, Container } from './HomeElements';
 import abstract1 from '../../Assets/Abstract1.png'
 import abstract2 from '../../Assets/Abstract2.png'
 import character from '../../Assets/character1.png'
+import Menu from '../Menu';
 
 function Home() {
     return (
         <>
+        <Menu/>
         <Container>
             {/* <img src={abstract1} alt="abstract" className="abstract1"/> */}
             <img src={abstract2} alt="abstract" className="abstract2"/>
@@ -22,7 +24,9 @@ function Home() {
         <h1>Bem-vindo ao Masterchef</h1>
         <p>Clique no menu hamburguer para opções</p>
         </div>
+        
         </Container>
+        
             
         </>
     )

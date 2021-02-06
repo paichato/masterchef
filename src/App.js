@@ -1,10 +1,15 @@
 import Home from './Pages/Home';
+import Menu from './Pages/Menu';
 import GlobalStyle from './styles/global'
 
 function App() {
   return (
     <>
-    <Home/>
+    <Home>
+
+
+      </Home>
+    
       <GlobalStyle/> {/*importando estilos globais*/}
     </>
   );

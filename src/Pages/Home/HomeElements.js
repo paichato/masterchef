@@ -2,20 +2,18 @@ import styled from "styled-components";
 import {AiOutlineMenu} from 'react-icons/ai'
 
 export const Container=styled.div`
+
 background:var(--primary);
 max-width:614px;
 min-width:360px;
 height:100vh;
-margin-left:20vw;
-border-radius:0px 0 0 0;
 
-/* display:flex;
-justify-content:center;
-align-items:center; */
 
     @media (max-width:360px){
+        
         width:360px;
         margin:0;
+        
     }
 
     img{
@@ -23,13 +21,11 @@ align-items:center; */
         
     }
     .abstract1{
-        position:absolute;
+        /* position:absolute;
             z-index:2;
-            /* margin-left:420px;
-            margin-top:400px; */
-            margin-left:29.1vw; 
+           
             margin-top:40.5vh;
-            object-fit:cover;
+            object-fit:cover; */
 
           
             
@@ -38,6 +34,8 @@ align-items:center; */
         z-index:3;
         margin-top:762px;
         margin-top:84.8vh;
+        margin:84.8vh auto;
+        background-repeat:no-repeat;
     }
     .person{
         position:absolute;
@@ -61,6 +59,10 @@ align-items:center; */
         margin-top:320px;
         padding-left:67px;
 
+        @media (max-height:640px){
+        margin:100px auto;
+    }
+
 
         h1{
             width:350px;
@@ -68,11 +70,13 @@ align-items:center; */
         }
         p{
            padding-top:20px;
-            /* width:350px; */
+            
         }
-    }
+        
+}
     
-
+    
+  
 
 `
 
