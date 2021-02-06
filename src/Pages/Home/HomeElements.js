@@ -84,4 +84,14 @@ export const BurguerMenu=styled(AiOutlineMenu)`
     width:40px;
     height:40px;
     cursor: pointer;
+
+    transition:all 0.2s ease-in-out;
+
+    &:hover{
+    fill:var(--mate);
+    cursor: pointer;
+    
+    transform: scale(3,3);
+    transform:rotate(180deg);
+}
 `
