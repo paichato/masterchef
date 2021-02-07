@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {AiOutlineClose} from 'react-icons/ai';
-import Link from 'react-dom';
+import {Link} from 'react-router-dom';
+
 
 export const MenuFrame=styled.nav`
 position:absolute;
@@ -34,7 +35,7 @@ div{
         bottom:300px;
     }
 
-    a{
+    /* a{
         padding-top:60px;
         font-size:42px;
         font-weight:400;
@@ -52,7 +53,7 @@ div{
         }
         
         
-    }
+    } */
 
     
 }
@@ -81,4 +82,24 @@ width:40px;
 }
 
 `
+export const LinkR=styled(Link)`
+
+padding-top:60px;
+        font-size:42px;
+        font-weight:400;
+        text-decoration:none;
+        cursor:none;
+        transition: all 0.2s ease-in-out;
+        color:var(--soft-blue);
+
+        &:hover{
+            color:var(--white);
+            cursor: pointer;
+            
+            
+            transform: scale(1.1,1.1);
+        }
+`
+
+
 

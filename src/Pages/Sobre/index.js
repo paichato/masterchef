@@ -2,6 +2,7 @@ import React, { Children } from 'react'
 import { BurguerMenu, Container, MainHeader, NavItems } from '../Home/HomeElements'
 import { SobreContainer, SobreWrapper } from './SobreElements'
 import abstract2 from '../../Assets/Abstract2.png'
+import { BrowserRouter, Link, Switch } from 'react-router-dom'
 
 function Sobre({open,setOpen}) {
     return (
@@ -10,7 +11,13 @@ function Sobre({open,setOpen}) {
                 <MainHeader>
                     <img src={abstract2} alt="abstract" className="abstract2"/>
                     <NavItems>
-                        <h2>MasterChef</h2>
+                    <BrowserRouter forceRefresh={true}>
+                    <Link to="/" exact >
+                        <Switch>
+                    <h2>MasterChef</h2>
+                        </Switch>
+                    </Link>
+                    </BrowserRouter>
                         <button onClick={()=>setOpen(!open)} open={open} setOpen={setOpen} >
                             <BurguerMenu />
                         </button>

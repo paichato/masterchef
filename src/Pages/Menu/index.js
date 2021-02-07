@@ -1,5 +1,10 @@
 import React from 'react'
-import { CloseIcon, MenuFrame } from './MenuElements'
+import { Link, BrowserRouter } from 'react-router-dom'
+import MinhaConta from '../MinhaConta'
+import Pedidos from '../Pedidos'
+import Sobre from '../Sobre'
+import { CloseIcon, LinkR, MenuFrame } from './MenuElements'
+import {Switch} from 'react-router';
 
 const Menu=({open,setOpen})=> {
     return (
@@ -10,15 +15,23 @@ const Menu=({open,setOpen})=> {
                         <CloseIcon/>
                         
                     </button>
-                    <a href="/">
+                   
+                    <Switch>
+                    <BrowserRouter forceRefresh={true}>
+                    <LinkR to="/MinhaConta/" onClick={()=>setOpen(!open)} >
                         Minha Conta
-                    </a>
-                    <a href="/">
+                    </LinkR >
+                    <LinkR to="/Pedidos/" onClick={()=>setOpen(!open)}>
                     Meus Pedidos
-                    </a>
-                    <a href="/">
-                    Minha Conta
-                    </a>
+                    </LinkR>
+                    <LinkR to="/Sobre/" onClick={()=>setOpen(!open)}>
+                    Sobre
+                    </LinkR>
+                    </BrowserRouter>
+                    </Switch>
+                    
+                    
+                   
 
                 </div>
             </MenuFrame>

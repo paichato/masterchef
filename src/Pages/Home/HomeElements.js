@@ -57,6 +57,7 @@ height:100vh;
         h2{
             font-family: 'Pattaya', sans-serif;
             padding-left:10px;
+            cursor: pointer;
         }
     }
     

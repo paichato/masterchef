@@ -3,6 +3,7 @@ import Home from '../Home'
 import { BurguerMenu, Container, MainHeader, NavItems } from '../Home/HomeElements'
 import abstract2 from '../../Assets/Abstract2.png'
 import { ContaForm } from './MinhaContaElements'
+import { BrowserRouter, Link, Switch } from 'react-router-dom'
 
 function MinhaConta({open,setOpen}) {
     return (
@@ -11,7 +12,13 @@ function MinhaConta({open,setOpen}) {
                 <MainHeader>
                     <img src={abstract2} alt="abstract" className="abstract2"/>
                     <NavItems>
-                        <h2>MasterChef</h2>
+                    <BrowserRouter forceRefresh={true}>
+                    <Link to="/" exact >
+                        <Switch>
+                    <h2>MasterChef</h2>
+                        </Switch>
+                    </Link>
+                    </BrowserRouter>
                         <button onClick={()=>setOpen(!open)} open={open} >
                             <BurguerMenu />
                         </button>
