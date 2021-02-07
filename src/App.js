@@ -6,7 +6,7 @@ import Menu from './Pages/Menu';
 import MinhaConta from './Pages/MinhaConta';
 import Pedidos from './Pages/Pedidos';
 import Sobre from './Pages/Sobre';
-import Routes from './Routes';
+
 import GlobalStyle from './styles/global'
 import {Switch, Route, Router} from 'react-router';
 
