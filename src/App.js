@@ -14,9 +14,9 @@ function App() {
   return (
     <>
     <Menu open={open} setOpen={setOpen} /> 
-    <Home open={open} setOpen={setOpen}/>
+    {/* <Home open={open} setOpen={setOpen}/> */}
    
-    {/* <MinhaConta open={open} setOpen={setOpen}/> */}
+    <MinhaConta open={open} setOpen={setOpen}/>
 
 
   
