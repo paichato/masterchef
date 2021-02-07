@@ -39,6 +39,10 @@ height:100vh;
         margin-top:84.8vh;
         margin:84.8vh auto;
         background-repeat:no-repeat;
+        
+        @media (max-width:420px){
+            
+        }
     }
     .person{
         position:absolute;
