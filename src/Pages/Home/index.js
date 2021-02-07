@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
-import { BurguerMenu, Container } from './HomeElements';
-import abstract1 from '../../Assets/Abstract1.png'
+import { BurguerMenu, Container, MainHeader, NavItems, HomeBody } from './HomeElements';
+
 import abstract2 from '../../Assets/Abstract2.png'
-import character from '../../Assets/character1.png'
-import Menu from '../Menu';
+
 
 
 function Home({open,setOpen}) {
@@ -13,21 +12,24 @@ function Home({open,setOpen}) {
         <>
        
         <Container>
+           <MainHeader>
+                <img src={abstract2} alt="abstract" className="abstract2"/>
            
-            <img src={abstract2} alt="abstract" className="abstract2"/>
-           
-        <nav>
-            <h2>MasterChef</h2>
-            <button onClick={()=>setOpen(!open)}  >
-                <BurguerMenu />
-            </button>
-        </nav>
+                <NavItems>
+                    <h2>MasterChef</h2>
+                    <button onClick={()=>setOpen(!open)}  >
+                        <BurguerMenu />
+                    </button>
+                </NavItems>
+            </MainHeader>
 
+        <HomeBody>
         <div>
-        <h1>Bem-vindo ao Masterchef</h1>
+        <h1 >Bem-vindo ao Masterchef</h1>
         <p>Clique no menu hamburguer para opções</p>
         </div>
-        
+        </HomeBody>
+       
         </Container>
         
             

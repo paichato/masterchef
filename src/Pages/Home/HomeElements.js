@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import {AiOutlineMenu} from 'react-icons/ai'
 
+
+
+
 export const Container=styled.div`
 
 background:var(--primary);
@@ -45,17 +48,20 @@ height:100vh;
     }
 
     nav{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-between;
-        padding:20px;
+        
 
         h2{
             font-family: 'Pattaya', sans-serif;
             padding-left:10px;
         }
     }
-    div{
+    
+        
+
+`
+
+export const HomeBody=styled.section`
+div{
         margin-top:320px;
         padding-left:67px;
 
@@ -65,19 +71,16 @@ height:100vh;
 
 
         h1{
-            width:350px;
+            width:300px;
             font-weight:400;
+            font-size:42px;
         }
         p{
            padding-top:20px;
+           
             
         }
-        
 }
-    
-    
-  
-
 `
 
 export const BurguerMenu=styled(AiOutlineMenu)`
@@ -94,4 +97,14 @@ export const BurguerMenu=styled(AiOutlineMenu)`
     transform: scale(3,3);
     transform:rotate(180deg);
 }
+`
+export const MainHeader=styled.header`
+
+`
+export const NavItems=styled.nav`
+display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        padding:20px;
+
 `
