@@ -23,6 +23,8 @@ margin:30px auto 0 auto;
         }
 
         input{
+        color:var(--dark-blue);
+        text-indent:10px;
         max-width:320px;
         width:320px;
         height:64px;
