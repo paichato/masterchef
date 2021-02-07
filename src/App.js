@@ -4,6 +4,7 @@ import { NavItems } from './Pages/Home/HomeElements';
 import Menu from './Pages/Menu';
 import MinhaConta from './Pages/MinhaConta';
 import Pedidos from './Pages/Pedidos';
+import Sobre from './Pages/Sobre';
 import GlobalStyle from './styles/global'
 
 
@@ -18,8 +19,8 @@ function App() {
     {/* <Home open={open} setOpen={setOpen}/> */}
    
     {/* <MinhaConta open={open} setOpen={setOpen}/> */}
-    <Pedidos open={open} setOpen={setOpen}/>
-
+    {/* <Pedidos open={open} setOpen={setOpen}/> */}
+    <Sobre open={open} setOpen={setOpen}/>
 
   
     
