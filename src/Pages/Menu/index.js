@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, BrowserRouter } from 'react-router-dom'
+import { Link, BrowserRouter, HashRouter } from 'react-router-dom'
 import MinhaConta from '../MinhaConta'
 import Pedidos from '../Pedidos'
 import Sobre from '../Sobre'

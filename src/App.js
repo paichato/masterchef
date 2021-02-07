@@ -39,7 +39,7 @@ function App() {
     <Sobre open={open} setOpen={setOpen}/>
     </Route>
 
-  {/* <Routes open={open} setOpen={setOpen}/> */}
+  
   </Switch>
   </BrowserRouter>
 
