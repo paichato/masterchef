@@ -14,6 +14,20 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import LoaderF from './Loader/index';
 
 
+const useExpired = (time)=>{
+  const [expired, setExpired] = useState(false);
+  const timoutRef = useRef();
+  useEffect(()=>{
+    timoutRef.current = setTimeout(()=>{
+      setExpired(true);
+    }, time);
+    return ()=>{
+      clearTimeout(timoutRef.current);
+    }
+  },[time]);
+  return expired;
+}
+
 
  function App() {
   function Runner(){
@@ -51,38 +65,21 @@ import LoaderF from './Loader/index';
      </>)
   
  }
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false); // state abrir e fexhar o menu
 
+const expired=useExpired(5000);
 
-  
-const [count, setCount] = useState(0);
-const [s, sets] = useState(false);
-const countRef=useRef(count);
-countRef.current=count;
-
-  const today=new Date();
-  const counter=today.getUTCMilliseconds();
- 
-
-
-
- const getVisible=(isVisible)=>{
-    if(isVisible===false){
-      <Runner/>
-    }
-  }
     
   return (
     
   <>
 
 
-  
-
-    <LoaderF />
+   {expired?<Runner/>:<LoaderF/>}
+ 
   
     
-   <BrowserRouter basename="/" forceRefresh={true}>
+   {/* <BrowserRouter basename="/" forceRefresh={true}>
     
     <Menu open={open} setOpen={setOpen} /> 
     <Switch>
@@ -109,7 +106,7 @@ countRef.current=count;
   </BrowserRouter>
 
     
-      <GlobalStyle/> importando estilos globais
+      <GlobalStyle/> importando estilos globais */}
     </>
   );
 
