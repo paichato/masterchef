@@ -4,12 +4,12 @@ import styled from "styled-components";
 
 export const PedidosWrapper=styled.div`
 
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-margin:auto;
-margin-top:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:auto;
+    margin-top:40px;
 
     h1{
         font-weight:400;

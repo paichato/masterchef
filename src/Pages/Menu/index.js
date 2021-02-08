@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link, BrowserRouter, HashRouter } from 'react-router-dom'
-import MinhaConta from '../MinhaConta'
-import Pedidos from '../Pedidos'
-import Sobre from '../Sobre'
+import {BrowserRouter} from 'react-router-dom'
 import { CloseIcon, LinkR, MenuFrame } from './MenuElements'
 import {Switch} from 'react-router';
 
@@ -17,17 +14,17 @@ const Menu=({open,setOpen})=> {
                     </button>
                    
                     <Switch>
-                    <BrowserRouter forceRefresh={true}>
-                    <LinkR to="/MinhaConta/" onClick={()=>setOpen(!open)} >
-                        Minha Conta
-                    </LinkR >
-                    <LinkR to="/Pedidos/" onClick={()=>setOpen(!open)}>
-                    Meus Pedidos
-                    </LinkR>
-                    <LinkR to="/Sobre/" onClick={()=>setOpen(!open)}>
-                    Sobre
-                    </LinkR>
-                    </BrowserRouter>
+                        <BrowserRouter forceRefresh={true}>
+                            <LinkR to="/MinhaConta/" onClick={()=>setOpen(!open)} >
+                                Minha Conta
+                            </LinkR >
+                            <LinkR to="/Pedidos/" onClick={()=>setOpen(!open)}>
+                            Meus Pedidos
+                            </LinkR>
+                            <LinkR to="/Sobre/" onClick={()=>setOpen(!open)}>
+                            Sobre
+                            </LinkR>
+                        </BrowserRouter>
                     </Switch>
                     
                     

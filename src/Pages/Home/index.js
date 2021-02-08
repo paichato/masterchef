@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { BurguerMenu, Container, MainHeader, NavItems, HomeBody } from './HomeElements';
-
 import abstract2 from '../../Assets/Abstract2.png'
 import { BrowserRouter, Link, Switch } from 'react-router-dom';
 
@@ -19,12 +18,12 @@ function Home({open,setOpen}) {
                 <NavItems>
                     
                         <BrowserRouter forceRefresh={true}>
-                    <Link to="/" exact >
-                        <Switch>
-                    <h2>MasterChef</h2>
-                        </Switch>
-                    </Link>
-                    </BrowserRouter>
+                            <Link to="/" exact >
+                                <Switch>
+                                    <h2>MasterChef</h2>
+                                </Switch>
+                            </Link>
+                        </BrowserRouter>
                   
                     <button onClick={()=>setOpen(!open)}  >
                         <BurguerMenu />
@@ -33,10 +32,10 @@ function Home({open,setOpen}) {
             </MainHeader>
 
         <HomeBody>
-        <div>
-        <h1 >Bem-vindo ao Masterchef</h1>
-        <p>Clique no menu hamburguer para opções</p>
-        </div>
+            <div>
+                <h1 >Bem-vindo ao Masterchef</h1>
+                <p>Clique no menu hamburguer para opções</p>
+            </div>
         </HomeBody>
        
         </Container>

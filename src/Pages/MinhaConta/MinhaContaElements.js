@@ -4,14 +4,14 @@ import styled from "styled-components";
 export const ContaForm=styled.div`
 
 
-max-width:324px;
-text-align:left;
-display:flex;
-align-items:center;
-justify-content:center;
-flex-direction:column;
-padding:10px;
-margin:30px auto 0 auto;
+    max-width:324px;
+    text-align:left;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:10px;
+    margin:30px auto 0 auto;
 
     h1{
         font-weight:400;

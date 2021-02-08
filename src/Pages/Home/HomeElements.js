@@ -23,16 +23,7 @@ height:100vh;
         position:absolute;
         
     }
-    .abstract1{
-        /* position:absolute;
-            z-index:2;
-           
-            margin-top:40.5vh;
-            object-fit:cover; */
-
-          
-            
-        }
+   
     .abstract2{
         z-index:3;
         margin-top:762px;
@@ -66,13 +57,13 @@ height:100vh;
 `
 
 export const HomeBody=styled.section`
-div{
+    div{
         margin-top:320px;
         padding-left:67px;
 
         @media (max-height:640px){
         margin:100px auto;
-    }
+            }
 
 
         h1{
@@ -107,7 +98,7 @@ export const MainHeader=styled.header`
 
 `
 export const NavItems=styled.nav`
-display:flex;
+        display:flex;
         flex-direction:row;
         justify-content:space-between;
         padding:20px;
