@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const SobreWrapper=styled.div`
 
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-margin:auto;
-margin-top:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:auto;
+    margin-top:40px;
 
     h1{
         font-weight:400;
@@ -23,7 +23,7 @@ margin-top:40px;
 export const SobreContainer=styled.div`
 
 
-display:flex;
+    display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;

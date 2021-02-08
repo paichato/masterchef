@@ -18,13 +18,12 @@ body, input, button{
 
 
 html, body, #root{
-    /* max-width:100vw; */
+  
     max-height:100vh; 
      height:100%;
     
     
-   /* margin-left:30%; */
-   /* margin-right:30%; */
+ 
 }
 
 //todas as cores usadas no projecto
