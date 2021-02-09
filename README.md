@@ -4,13 +4,14 @@ Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburg
 > Simple App in ReactJS that opens a loader for 5s when starting, containing a hamburger menu with 3 functional items.
 
 ## What the app looks like/ Aparencia da aplicacao
---- | --- | --- | --- 
-![banner](https://github.com/paichato/masterchef/blob/main/screenshots/Home.PNG) |
-![banner](https://github.com/paichato/masterchef/blob/main/screenshots/menu.PNG) |
-![banner](https://github.com/paichato/masterchef/blob/main/screenshots/MinhaConta.PNG) |
-![banner](https://github.com/paichato/masterchef/blob/main/screenshots/MeusPedidos.PNG) |
-![banner](https://github.com/paichato/masterchef/blob/main/screenshots/Sobre.PNG) |
-
+ 
+<div float="left">
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/Home.PNG" width="100" />
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/menu.PNG" width="100" /> 
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/MinhaConta.PNG" width="100" />
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/MeusPedidos.PNG" width="100" /> 
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/Sobre.PNG" width="100" />
+</div>
 --- 
 
 
