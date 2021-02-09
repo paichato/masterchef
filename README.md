@@ -1,9 +1,9 @@
-# Masterchef
+# Masterchef 🍽
 Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburguer menu com 3 itens funcionais.
 
 > Simple App in ReactJS that opens a loader for 5s when starting, containing a hamburger menu with 3 functional items.
 
-## What the app looks like/ Aparencia da aplicacao
+## What the app looks like/ Aparencia da aplicacao 🙈
  
 <div float="left">
   <img src="https://github.com/paichato/masterchef/blob/main/screenshots/Home.PNG" width="100" />
@@ -15,7 +15,7 @@ Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburg
 --- 
 
 
-## How to run the app/ Como executar o aplicativo
+## How to run the app/ Como executar o aplicativo 🚀
 1. Either click on the link on the right panel or fork/download the app and open the folder in the CLI
 2. Install all dependecies using the 'yarn add' command
 3. Start the web server using the 'yarn start'. The app will be served at http://localhost:3000/masterchef
@@ -26,7 +26,7 @@ Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburg
   > - Inicie o servidor web usando o 'yarn start'. O aplicativo será servido em http: // localhost: 3000 / masterchef
   > - Vá para http: // localhost: 3000 / masterchef em seu navegador e comece a explorar repositórios
 
-## How to explore / Como explorar a app
+## How to explore / Como explorar a app 🔀
 1. Wait 5 seconds till the app loads
 2. Click on the hamburger menu on the right top corner see options
 3. Choose different options to explore
@@ -40,13 +40,13 @@ Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburg
 ## User stories
 
 
-## Features
+## Features 💎
 > Loading spinner at the beginning
 > Slider Menu
 
 
     
-## Dependecies
+## Dependecies 💾
 [react](https://github.com/facebook/react)|styled-components|react-spinner-loader
 ---|---|---
 react-icons|react-router-dom|gh-pages
@@ -54,7 +54,7 @@ react-icons|react-router-dom|gh-pages
 
 
 
-## Future Features
+## Future Features 🎲
 - Form operational 
 
 ---
