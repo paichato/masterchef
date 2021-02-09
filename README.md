@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Masterchef 🍽
+Simples App em ReactJS que abre um loader por 5s ao iniciar, contendo um hamburguer menu com 3 itens funcionais.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Simple App in ReactJS that opens a loader for 5s when starting, containing a hamburger menu with 3 functional items.
 
-## Available Scripts
+## What the app looks like/ Aparencia da aplicacao 🙈
+ 
+<div float="left">
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/Home.PNG" width="100" />
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/menu.PNG" width="100" /> 
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/MinhaConta.PNG" width="100" />
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/MeusPedidos.PNG" width="100" /> 
+  <img src="https://github.com/paichato/masterchef/blob/main/screenshots/Sobre.PNG" width="100" />
+</div>
+--- 
 
-In the project directory, you can run:
 
-### `yarn start`
+## How to run the app/ Como executar o aplicativo 🚀
+1. Either click on the link on the right panel or fork/download the app and open the folder in the CLI
+2. Install all dependecies using the 'yarn add' command
+3. Start the web server using the 'yarn start'. The app will be served at http://localhost:3000/masterchef
+4. Go to http://localhost:3000/masterchef on your browser and start exploring repos<br/></br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  > - Clique no link no painel direito ou bifurque / baixe o aplicativo e abra a pasta na CLI
+  > - Instale todas as dependências usando o comando 'yarn add'
+  > - Inicie o servidor web usando o 'yarn start'. O aplicativo será servido em http: // localhost: 3000 / masterchef
+  > - Vá para http: // localhost: 3000 / masterchef em seu navegador e comece a explorar repositórios
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How to explore / Como explorar a app 🔀
+1. Wait 5 seconds till the app loads
+2. Click on the hamburger menu on the right top corner see options
+3. Choose different options to explore
+4. Click on the top left corner to go to homepage<br/><br/><br/>
 
-### `yarn test`
+> - Espere 5 segundos até o aplicativo carregar
+> - Clique no menu de hambúrguer no canto superior direito para ver as opções
+> - Escolha diferentes opções para explorar
+> - Clique no canto superior esquerdo para ir para a página inicial
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User stories
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features 💎
+> Loading spinner at the beginning
+> Slider Menu
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    
+## Dependecies 💾
+[react](https://github.com/facebook/react)|styled-components|react-spinner-loader
+---|---|---
+react-icons|react-router-dom|gh-pages
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Future Features 🎲
+- Form operational 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+<a href='https://ko-fi.com/D1D63F21Y' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> | 
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
