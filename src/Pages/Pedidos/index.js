@@ -12,7 +12,7 @@ function Pedidos({open, setOpen}) {
                 <MainHeader>
                     <img src={abstract2} alt="abstract" className="abstract2"/>
                     <NavItems>
-                        <BrowserRouter forceRefresh={true}>
+                        <BrowserRouter basename="/masterchef" forceRefresh={true}>
                             <Link to="/" exact >
                                 <Switch>
                                     <h2>MasterChef</h2>

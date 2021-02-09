@@ -17,7 +17,7 @@ function Home({open,setOpen}) {
            
                 <NavItems>
                     
-                        <BrowserRouter forceRefresh={true}>
+                        <BrowserRouter basename="/masterchef" forceRefresh={true}>
                             <Link to="/" exact >
                                 <Switch>
                                     <h2>MasterChef</h2>
