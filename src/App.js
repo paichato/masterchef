@@ -37,7 +37,7 @@ const useExpired = (time)=>{
    
     return(
        <>
-     <BrowserRouter basename="/" forceRefresh={true}>
+     <BrowserRouter basename="/masterchef" forceRefresh={true}>
    
    <Menu open={open} setOpen={setOpen} /> 
    <Switch>
