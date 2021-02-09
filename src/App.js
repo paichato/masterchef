@@ -14,6 +14,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import LoaderF from './Loader/index';
 
 
+//funcao para definir tempo do loader
 const useExpired = (time)=>{
   const [expired, setExpired] = useState(false);
   const timoutRef = useRef();
@@ -30,6 +31,8 @@ const useExpired = (time)=>{
 
 
  function App() {
+
+   //component da App(rotas e paginas)
   function Runner(){
    
     return(
@@ -67,7 +70,7 @@ const useExpired = (time)=>{
  }
   const [open, setOpen] = useState(false); // state abrir e fexhar o menu
 
-const expired=useExpired(5000);
+const expired=useExpired(5000); //definindo tempo do loader
 
     
   return (
@@ -77,36 +80,6 @@ const expired=useExpired(5000);
 
    {expired?<Runner/>:<LoaderF/>}
  
-  
-    
-   {/* <BrowserRouter basename="/" forceRefresh={true}>
-    
-    <Menu open={open} setOpen={setOpen} /> 
-    <Switch>
-  
-     
-    <Route path="/" exact>
-    <Home open={open} setOpen={setOpen}/>
-    </Route>
-    
-    <Route path="/MinhaConta/">
-    <MinhaConta open={open} setOpen={setOpen}/>
-    </Route>
-    
-    <Route path="/Pedidos/">
-    <Pedidos open={open} setOpen={setOpen}/>
-    </Route>
-
-    <Route path="/Sobre/" >
-    <Sobre open={open} setOpen={setOpen}/>
-    </Route>
-
-  
-  </Switch>
-  </BrowserRouter>
-
-    
-      <GlobalStyle/> importando estilos globais */}
     </>
   );
 
