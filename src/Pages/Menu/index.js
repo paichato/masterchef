@@ -14,7 +14,7 @@ const Menu=({open,setOpen})=> {
                     </button>
                    
                     <Switch>
-                        <BrowserRouter forceRefresh={true}>
+                        <BrowserRouter forceRefresh={false}>
                             <LinkR to="/MinhaConta/" onClick={()=>setOpen(!open)} >
                                 Minha Conta
                             </LinkR >
